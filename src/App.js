@@ -3,6 +3,7 @@ import "./App.css";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
 
 const Container = styled.div`
   position: absolute;
@@ -52,6 +53,9 @@ function App() {
           </Icon>
           <Icon href="https://docs.wilfredproject.org" target="_blank">
             <FaBook />
+          </Icon>
+          <Icon href="https://discord.gg/Ry7zV8B" target="_blank">
+            <FaDiscord />
           </Icon>
         </IconContainer>
       </Container>
