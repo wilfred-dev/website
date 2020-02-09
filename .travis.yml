@@ -1,4 +1,6 @@
 language: node_js
+node_js:
+    - 12
 
 services:
     - docker 
@@ -6,8 +8,10 @@ services:
 jobs:
     include:
     - stage: Check code quality
+      install:
+        - npm install --global prettier
       script:
-        - npx prettier --check "src/**/*.js"
+        - prettier --check "src/**/*.js"
 
     - stage: Build & push Docker image
       script:
