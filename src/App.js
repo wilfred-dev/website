@@ -54,7 +54,7 @@ function App() {
           <Icon href="https://docs.wilfredproject.org" target="_blank">
             <FaBook />
           </Icon>
-          <Icon href="https://discord.gg/Ry7zV8B" target="_blank">
+          <Icon href="https://wilfredproject.org/discord" target="_blank">
             <FaDiscord />
           </Icon>
         </IconContainer>
