@@ -18,3 +18,7 @@ Run development server.
 ```bash
 npm start
 ```
+
+## Contributors
+
+Maintained by [Alvar Lagerlöf](https://github.com/alvarlagerlof).
