@@ -7,3 +7,4 @@ services:
       - "6000:6000"
     environment:
       PORT: "6000"
+    restart: always
