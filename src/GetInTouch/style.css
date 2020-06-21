@@ -28,6 +28,7 @@
 
 .GetInTouch ul.grid li p {
   margin-bottom: 8px;
+  max-width: unset;
 }
 
 .GetInTouch ul.grid li a {
