@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  app:
+    image: wilfreddev/website:latest
+    ports:
+      - "6000:6000"
+    environment:
+      PORT: "6000"
+    restart: always
