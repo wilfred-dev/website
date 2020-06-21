@@ -1,0 +1,27 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 96px;
+}
+
+.Navbar img {
+  height: 25px;
+}
+
+.Navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.Navbar ul li a {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Navbar img {
+    height: 20px;
+  }
+}

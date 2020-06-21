@@ -1,0 +1,27 @@
+.Content {
+  padding: 128px 0;
+}
+
+.Content h2 {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.Content h4 {
+  margin-top: 38px;
+  margin-bottom: 4px;
+}
+
+.Content ul {
+  margin-left: 24px;
+}
+
+.Content ul li {
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Content {
+    padding: 32px 0;
+  }
+}

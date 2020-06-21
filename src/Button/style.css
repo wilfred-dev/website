@@ -1,0 +1,21 @@
+.Button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  border: 3px solid red;
+  background: red;
+  white-space: nowrap;
+}
+
+.Button.primary {
+  background: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  color: white;
+}
+
+.Button.secondary {
+  background: none;
+  border: 3px solid var(--color-primary);
+}
