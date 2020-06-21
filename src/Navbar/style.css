@@ -24,4 +24,8 @@
   .Navbar img {
     height: 20px;
   }
+
+  .Navbar ul li a {
+    font-size: 16px;
+  }
 }
