@@ -15,6 +15,7 @@ body {
 
 :root {
   --color-primary: #5144e4;
+  --color-secondary: rgb(233, 233, 233);
   --font-body: "Karla";
   --font-heading: "Overpass Mono";
 }

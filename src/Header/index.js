@@ -5,11 +5,11 @@ import Spacer from "../Spacer";
 
 export default function Header({ children }) {
   return (
-    <div className="Header">
+    <header className="Header">
       <Spacer>
         <Navbar />
         {children}
       </Spacer>
-    </div>
+    </header>
   );
 }

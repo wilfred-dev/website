@@ -1,0 +1,8 @@
+.Footer {
+  background: var(--color-secondary);
+  padding: 24px 0;
+}
+
+.Footer h4 {
+  color: grey;
+}

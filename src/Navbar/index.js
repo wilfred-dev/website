@@ -6,7 +6,7 @@ import logo from "./logo.svg";
 export default function Navbar() {
   return (
     <nav className="Navbar">
-      <img src={logo} />
+      <img alt="Logo" src={logo} />
       <ul>
         <li>
           <a href="/docs">Documentation</a>
