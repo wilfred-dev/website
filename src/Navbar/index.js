@@ -9,9 +9,7 @@ export default function Navbar() {
       <img alt="Logo" src={logo} />
       <ul>
         <li>
-          <a href="https://docs.wilfredproject.org/en/latest/#installation">
-            Documentation
-          </a>
+          <a href="https://docs.wilfredproject.org/en/latest/">Documentation</a>
         </li>
       </ul>
     </nav>

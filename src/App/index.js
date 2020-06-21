@@ -23,7 +23,7 @@ export default function App() {
             <a href="#get-started">
               <Button primary>Get started</Button>
             </a>
-            <a href="https://docs.wilfredproject.org/en/latest/#installation">
+            <a href="https://docs.wilfredproject.org/en/latest/">
               <Button secondary>Read documentation</Button>
             </a>
           </ButtonGroup>
@@ -162,9 +162,7 @@ export default function App() {
         </p>
         <p>
           Read more in the{" "}
-          <a href="https://docs.wilfredproject.org/en/latest/#installation">
-            documentation
-          </a>
+          <a href="https://docs.wilfredproject.org/en/latest/">documentation</a>
         </p>
       </Content>
       <GetInTouch />

@@ -3,7 +3,7 @@ import "./style.css";
 import Spacer from "../Spacer";
 
 import discord from "./logos/discord.svg";
-import twitter from "./logos/twitter.svg";
+import discourse from "./logos/discourse.svg";
 import github from "./logos/github.svg";
 
 export default function GetInTouch() {
@@ -17,19 +17,19 @@ export default function GetInTouch() {
             <img src={discord} alt="discord logo" />
             <h4>Discord</h4>
             <p>Nunc lorem, hendrerit ut risus id, ullamcorper feugiat diam.</p>
-            <a href="">Join</a>
+            <a href="https://discord.gg/zZhkPK2">Join</a>
           </li>
           <li>
-            <img src={twitter} alt="twitter logo" />
-            <h4>Twitter</h4>
+            <img src={discourse} alt="discourse logo" />
+            <h4>Discourse</h4>
             <p>Nunc lorem, hendrerit ut risus id, ullamcorper feugiat diam.</p>
-            <a href="">Join</a>
+            <p>(Coming soon)</p>
           </li>
           <li>
             <img src={github} alt="github logo" />
             <h4>Github</h4>
             <p>Nunc lorem, hendrerit ut risus id, ullamcorper feugiat diam.</p>
-            <a href="">Join</a>
+            <a href="https://github.com/wilfred-dev">Join</a>
           </li>
         </ul>
       </Spacer>
