@@ -45,12 +45,18 @@ export default function App() {
 
         <h4>Highlights</h4>
         <ul>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
-          <li>lorem ipsum</li>
+          <li>Easy to install and few dependencies</li>
+          <li>
+            An easy-to-use command-line interface for smooth game server
+            management.
+          </li>
+          <li>Secure and isolated containers for each game server</li>
+          <li>Works with any game that can run in Docker</li>
+          <li>
+            Integrates with game configuration files so that you never have to
+            manually open and edit files
+          </li>
+          <li>Works with many games out of the box</li>
         </ul>
 
         <h2>Supported games</h2>
