@@ -6,7 +6,10 @@ export default function Footer() {
   return (
     <footer className="Footer">
       <Spacer>
-        <h4>Copyright Wilfred project 2020</h4>
+        <h4>
+          Copyright Wilfred Project 2020 -{" "}
+          <a href="mailto:info@wilfredproject.org">info@wilfredproject.org</a>
+        </h4>
       </Spacer>
     </footer>
   );
