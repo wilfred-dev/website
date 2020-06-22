@@ -16,8 +16,7 @@ export default function App() {
         <HeaderCenter>
           <h1>Wilfred</h1>
           <h4>
-            An advanced Docker-based CLI tool to manage create and manage
-            gameservers.
+            An advanced Docker-based CLI tool to manage and create game servers.
           </h4>
           <ButtonGroup>
             <a href="#get-started">
