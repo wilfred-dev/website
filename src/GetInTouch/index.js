@@ -11,7 +11,10 @@ export default function GetInTouch() {
     <div className="GetInTouch">
       <Spacer>
         <h2>Get in touch</h2>
-        <p>You can reach out to the Wilfred devs and community via multiple channels.</p>
+        <p>
+          You can reach out to the Wilfred devs and community via multiple
+          channels.
+        </p>
         <ul className="grid">
           <li>
             <img src={discord} alt="discord logo" />
@@ -28,7 +31,10 @@ export default function GetInTouch() {
           <li>
             <img src={github} alt="github logo" />
             <h4>GitHub</h4>
-            <p>Wilfred is open-source and licensed under the simple and permissive MIT License.</p>
+            <p>
+              Wilfred is open-source and licensed under the simple and
+              permissive MIT License.
+            </p>
             <a href="https://github.com/wilfred-dev">Explore</a>
           </li>
         </ul>
