@@ -5,6 +5,7 @@ import Spacer from "../Spacer";
 import discord from "./logos/discord.svg";
 import discourse from "./logos/discourse.svg";
 import github from "./logos/github.svg";
+import email from "./logos/email.svg";
 
 export default function GetInTouch() {
   return (
@@ -29,7 +30,13 @@ export default function GetInTouch() {
             <img src={github} alt="github logo" />
             <h4>Github</h4>
             <p>Nunc lorem, hendrerit ut risus id, ullamcorper feugiat diam.</p>
-            <a href="https://github.com/wilfred-dev">Join</a>
+            <a href="https://github.com/wilfred-dev">Explore</a>
+          </li>
+          <li>
+            <img src={email} alt="email logo" />
+            <h4>Email</h4>
+            <p>Nunc lorem, hendrerit ut risus id, ullamcorper feugiat diam.</p>
+            <a href="mailto:info@wilfredproject.org">Send email</a>
           </li>
         </ul>
       </Spacer>
