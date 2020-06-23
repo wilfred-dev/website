@@ -8,6 +8,9 @@ export default function Footer() {
       <Spacer>
         <h4>Copyright Wilfred Project 2020</h4>
       </Spacer>
+      <Spacer>
+        <h4><a href="mailto:info@wilfredproject.org">info@wilfredproject.org</a></h4>
+      </Spacer>
     </footer>
   );
 }

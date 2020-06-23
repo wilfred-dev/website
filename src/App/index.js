@@ -36,11 +36,6 @@ export default function App() {
           which means they are completely separated. Wilfred can run any game
           that can run in Docker.
         </p>
-        <p>
-          ⚠ Wilfred is currently under development and should not be considered
-          stable. Features may break or may not be implemented yet. Use with
-          caution.
-        </p>
 
         <h4>Highlights</h4>
         <ul>
