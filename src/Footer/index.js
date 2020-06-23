@@ -8,7 +8,7 @@ export default function Footer() {
       <Spacer>
         <h4>Copyright Wilfred Project 2020</h4>
         <a href="mailto:info@wilfredproject.org">info@wilfredproject.org</a>
-        <p>Made by Alvar Lagerlöf</p>
+        <p>Website made by Alvar Lagerlöf</p>
       </Spacer>
     </footer>
   );
