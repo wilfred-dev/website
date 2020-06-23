@@ -1,0 +1,17 @@
+.ButtonGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+.ButtonGroup .Button {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .ButtonGroup {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+  }
+}

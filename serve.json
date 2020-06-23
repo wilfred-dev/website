@@ -1,5 +1,9 @@
 {
-    "redirects": [
-        { "source": "/discord", "destination": "https://discord.gg/Ry7zV8B", "type": 302 }
-    ]
+  "redirects": [
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/Ry7zV8B",
+      "type": 302
+    }
+  ]
 }

@@ -10,13 +10,13 @@ Source code of [wilfredproject.org](https://wilfredproject.org).
 Install dependencies.
 
 ```bash
-npm install
+yarn install
 ```
 
 Run development server.
 
 ```bash
-npm start
+yarn start
 ```
 
 ## Contributors

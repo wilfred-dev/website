@@ -1,0 +1,22 @@
+.Button {
+  padding: 8px 24px;
+  padding-bottom: 5px; /* Accounts for weird font */
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  border: 3px solid red;
+  background: red;
+  white-space: nowrap;
+}
+
+.Button.primary {
+  background: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  color: white;
+}
+
+.Button.secondary {
+  background: none;
+  border: 3px solid var(--color-primary);
+}

@@ -1,16 +1,71 @@
-body {
-  background-color: #282c34;
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Overpass+Mono:wght@600&display=swap");
+
+* {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
 }
 
-h1, p, span {
-  color: white;
+body {
+  font-size: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-primary: #5144e4;
+  --color-secondary: rgb(233, 233, 233);
+  --font-body: "Karla";
+  --font-heading: "Overpass Mono";
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Overpass Mono";
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1em;
+  }
 }

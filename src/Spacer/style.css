@@ -1,0 +1,13 @@
+.Spacer {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Spacer {
+    width: 100%;
+    padding: 0 24px;
+    max-width: unset;
+  }
+}
