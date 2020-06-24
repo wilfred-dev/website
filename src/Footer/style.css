@@ -3,6 +3,20 @@
   padding: 24px 0;
 }
 
+.Footer * {
+  color: rgb(98, 98, 98);
+}
+
 .Footer h4 {
-  color: grey;
+  margin-bottom: 8px;
+}
+
+.Footer p {
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Footer * {
+    text-align: center;
+  }
 }
