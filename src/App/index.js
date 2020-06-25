@@ -29,7 +29,7 @@ export default function App() {
         </HeaderCenter>
       </Header>
       <Content>
-        <h2>What is wilfred?</h2>
+        <h2>What is Wilfred?</h2>
         <p>
           Wilfred is a command-line interface for running and managing game
           servers locally. It uses Docker to run game servers in containers,
