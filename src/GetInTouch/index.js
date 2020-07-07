@@ -20,7 +20,7 @@ export default function GetInTouch() {
             <img src={discord} alt="discord logo" />
             <h4>Discord</h4>
             <p>Discuss development and get help from the community.</p>
-            <a href="https://discord.gg/zZhkPK2">Join</a>
+            <a href="https://wilfredproject.org/discord">Join</a>
           </li>
           <li>
             <img src={discourse} alt="discourse logo" />
