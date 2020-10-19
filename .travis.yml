@@ -9,3 +9,17 @@ jobs:
         - npm install --global prettier
       script:
         - prettier --check "src/**/*.js"
+
+    - stage: Deploy
+      before_deploy:
+        - openssl aes-256-cbc -K $encrypted_49634e5b1863_key -iv $encrypted_49634e5b1863_iv -in travis_deploy_key.enc -out travis_deploy_key -d
+      deploy:
+        provider: pages:git
+        repo: wilfred-dev/wilfredproject.github.io
+        deploy_key: travis_deploy_key
+        local_dir: public
+        target_branch: master
+        fqdn: wilfredproject.org
+        edge: true # opt in to dpl v2
+        on:
+          branch: master
