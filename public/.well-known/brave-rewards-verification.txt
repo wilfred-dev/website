@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: wilfredproject.org
+Token: 454cb4b394364048b945bc96c3966017ca9f5b55b00fc3c5071958b572457c16
