@@ -92,17 +92,17 @@ export default function App() {
         </p>
         <h3>Quickstart</h3>
         <p>
-          Make sure you have Docker installed (see official documentation for
-          more info). Wilfred can be installed using <code>pip</code>. You need
-          to use <strong>Python 3.6</strong> or newer to run Wilfred.
+          Make sure you have Docker installed (see the official documentation
+          for more info). Wilfred can be installed using <code>pip</code>. You
+          need to use <strong>Python 3.6</strong> or newer to run Wilfred.
         </p>
         <pre>
           <code>pip install wilfred --upgrade</code>
         </pre>
         <p>
           A <a href="https://snapcraft.io/wilfred">snap</a> package is also in
-          the works but currently not considered stable. If you're using macOS
-          with <a href="https://brew.sh/">Homebrew</a> or Linux with{" "}
+          the works but is currently not considered stable. If you're using
+          macOS with <a href="https://brew.sh/">Homebrew</a> or Linux with{" "}
           <a href="https://docs.brew.sh/Homebrew-on-Linux">Linuxbrew</a>, you
           can install Wilfred using the official tap.
         </p>
@@ -152,7 +152,7 @@ export default function App() {
           <code>
             wilfred start {"<"}name{">"} --console
           </code>{" "}
-          (it will start the server and then immediately attach to server
+          (it will start the server and then immediately attach to the server
           console).
         </p>
         <p>
