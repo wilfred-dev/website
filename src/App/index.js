@@ -69,6 +69,7 @@ export default function App() {
               <li>Vanilla Minecarft</li>
               <li>BungeeCoord</li>
               <li>Paper</li>
+              <li>Spigot</li>
               <li>Waterfall</li>
               <li>Bedrock</li>
             </ul>
