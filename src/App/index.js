@@ -139,13 +139,13 @@ export default function App() {
           Wilfred will ask you which "image" to use. An image is a set of
           configuration files that defines a specific game within Wilfred. These
           images are not to be confused with Docker images, Wilfred images sort
-          of wrapped around the Docker images. A couple of games are already
-          built into Wilfred, but you can also create your own.
+          of wrap around the Docker images. A couple of games are already built
+          into Wilfred, but you can also create your own.
         </p>
         <p>
           Then, Wilfred will ask you to set any environment variables (if
           available for that image). The environment variables differ from game
-          to game and most of them do have a default value.
+          to game and most of them have a default value.
         </p>
         <p>
           Once the server is created, you can use <code>wilfred servers</code>{" "}
