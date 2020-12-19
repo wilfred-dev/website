@@ -35,7 +35,7 @@ export default function GetInTouch() {
               Wilfred is open-source and licensed under the simple and
               permissive MIT License.
             </p>
-            <a href="https://github.com/wilfred-dev">Explore</a>
+            <a href="https://github.com/wilfred-dev/wilfred">Explore</a>
           </li>
         </ul>
       </Spacer>
