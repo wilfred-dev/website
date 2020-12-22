@@ -70,6 +70,7 @@ export default function App() {
               <li>BungeeCoord</li>
               <li>Paper</li>
               <li>Spigot</li>
+              <li>SpongeVanilla</li>
               <li>Waterfall</li>
               <li>Bedrock</li>
             </ul>
