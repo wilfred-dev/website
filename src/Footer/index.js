@@ -7,8 +7,8 @@ export default function Footer() {
     <footer className="Footer">
       <Spacer>
         <h4>
-          Copyright © 2020 <a href="https://vilhelmprytz.se">Vilhelm Prytz</a>,
-          et al.
+          Copyright © 2020-2021{" "}
+          <a href="https://vilhelmprytz.se">Vilhelm Prytz</a>, et al.
         </h4>
         <a href="mailto:info@wilfredproject.org">info@wilfredproject.org</a>
         <p>
