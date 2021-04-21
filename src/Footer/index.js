@@ -12,7 +12,10 @@ export default function Footer() {
         </h4>
         <a href="mailto:info@wilfredproject.org">info@wilfredproject.org</a>
         <p>
-          Website created by <a href="https://alvar.dev">Alvar Lagerlöf</a>
+          Website created by{" "}
+          <a href="https://alvar.dev?utm_source=wilfredproject.org">
+            Alvar Lagerlöf
+          </a>
         </p>
       </Spacer>
     </footer>
