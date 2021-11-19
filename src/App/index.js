@@ -126,11 +126,25 @@ export default function App() {
           Once you got Wilfred installed, run <code>wilfred setup</code> to set
           a path for Wilfred to use to store server files.
         </p>
-        <img
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="quickstart"
           alt="console gif guide"
-          src="https://raw.githubusercontent.com/wilfred-dev/wilfred/master/docs/quickstart.gif"
-        ></img>
+        >
+          <source
+            className="quickstart"
+            src="quickstart.webm"
+            type="video/webm"
+          />
+          <source
+            className="quickstart"
+            src="quickstart.mp4"
+            type="video/mp4"
+          />
+        </video>
         <p>
           To create your first server, use <code>wilfred create</code>. Most
           values have a default value, where you can just press return to use
