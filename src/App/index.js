@@ -113,7 +113,7 @@ export default function App() {
         </pre>
         <p>
           Wilfred can also be installed using <code>pip</code>. You need to use{" "}
-          <strong>Python 3.6</strong> or newer to run Wilfred.
+          <strong>Python 3.7</strong> or newer to run Wilfred.
         </p>
         <pre>
           <code>pip install wilfred --upgrade</code>
