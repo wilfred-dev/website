@@ -119,10 +119,6 @@ export default function App() {
           <code>pip install wilfred --upgrade</code>
         </pre>
         <p>
-          A <a href="https://snapcraft.io/wilfred">snap</a> package is also in
-          the works but is currently not considered stable.
-        </p>
-        <p>
           Once you got Wilfred installed, run <code>wilfred setup</code> to set
           a path for Wilfred to use to store server files.
         </p>
